@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+}
+
+html {
+  background-color: #202225;
+  color: #dddddd;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  margin: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 1rem;
+}
+
+.container > div {
+  background: #303235;
+  border-radius: 0.3rem;
+}
